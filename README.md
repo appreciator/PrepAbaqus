@@ -15,7 +15,7 @@ A preprocessor for finite element analysis using Matlab, which imports model inf
 3. 建模时每一Section Assignment、Boundary Condition、Load的施加均创建对应Set, 此其实为ABAQUS默认操作,支持用户修改默认的Set名称
 4. 仅支持读取各向线弹性材料的弹性模量、泊松比、质量密度
 
-示例：
+示例：</br>
 105万四面体单元的三维实体模型，受固定位移约束与均布面荷载作用，含拓扑优化的不可设计域</br>
 在Matlab 2010b中运行PrepAbaqus程序读取该模型，耗费时间约为4.8秒</br>
 系统环境：Windows7 32bit、DDR2 4G内存、酷睿2 T8100双核CPU</br>
