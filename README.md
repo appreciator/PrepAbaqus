@@ -21,5 +21,6 @@ A preprocessor for finite element analysis using Matlab, which imports model inf
 Abaqus原始模型
 ![Image text](https://github.com/appreciator/PrepAbaqus/blob/master/Examples/Example01_Abaqus.png)
 
+
 导入Matlab后所绘制的模型（含位移约束、荷载信息，但未绘制）
 ![Image text](https://github.com/appreciator/PrepAbaqus/blob/master/Examples/Example01_Matlab.png)
