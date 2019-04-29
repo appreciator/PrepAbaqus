@@ -21,8 +21,8 @@ A preprocessor for finite element analysis using Matlab, which imports model inf
 系统环境：Windows7 32bit、DDR2 4G内存、酷睿2 T8100双核CPU</br>
 
 Abaqus原始模型
-![Image text](https://github.com/appreciator/PrepAbaqus/blob/master/Examples/Example01_Abaqus.png)
+![Image text](https://raw.githubusercontent.com/appreciator/PrepAbaqus/master/Examples/Example01_Abaqus.png)
 
 
 导入Matlab后所绘制的模型（含位移约束、荷载信息，但未绘制）
-![Image text](https://github.com/appreciator/PrepAbaqus/blob/master/Examples/Example01_Matlab.png)
+![Image text](https://raw.githubusercontent.com/appreciator/PrepAbaqus/master/Examples/Example01_Matlab.png)
