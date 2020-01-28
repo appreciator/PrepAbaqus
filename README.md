@@ -12,8 +12,9 @@ A preprocessor for finite element analysis using Matlab, which imports model inf
 模型限制:
 1. 仅存在一个Part,且instance为默认的dependent类型
 2. Part采用同一种单元类型,比如不能同一结构里混用四面体、六面体单元
-3. 建模时每一Section Assignment、Boundary Condition、Load的施加均创建对应Set, 此其实为ABAQUS默认操作,支持用户修改默认的Set名称
-4. 仅支持读取各向线弹性材料的弹性模量、泊松比、质量密度
+3. 建模时必须赋予Section、创建Static Step、施加荷载与位移边界条件
+4. 建模时每一Section Assignment、Boundary Condition、Load的施加均创建对应Set, 此其实为ABAQUS默认操作,支持用户修改默认的Set名称
+5. 仅支持读取各向线弹性材料的弹性模量、泊松比、质量密度
 
 示例：</br>
 105万四面体单元的三维实体模型，受固定位移约束与均布面荷载作用，含拓扑优化的不可设计域</br>
