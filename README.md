@@ -1,5 +1,3 @@
-![](https://img.shields.io/github/downloads/appreciator/PrepAbaqus/total?label=Downloads&style=social)
-
 # PrepAbaqus
 A preprocessor for finite element analysis using Matlab, which imports model information from Abaqus *.inp files.
 
